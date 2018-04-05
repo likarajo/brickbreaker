@@ -1,0 +1,39 @@
+* {
+  -webkit-text-size-adjust: 100%; /* for mobile devices */
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  box-sizing: border-box; /* Full Width and height is inclusive of all parts of the element: content, padding and borders */
+  outline-color: #5cd17d;
+}
+
+html {
+  font-weight: 300;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', Helvetica, arial, sans-serif;
+  color: #111;
+  overflow: hidden; /* no scroll bar */
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  min-width: 360px
+}
+
+img {
+  border: 0;
+}
+
+a, a:active, a:focus, a:link, a:visited {
+  color: #111;
+  font-weight: 400;
+  text-decoration: none
+}
+
+a:hover {
+  color: #b0b0b0;
+}
