@@ -1,23 +1,59 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-US">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Brick Breaker</title>
-  <base="https://likarajo.github.io/brickbreaker/">
-  <link rel="stylesheet" href="assets/main.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <title>brick breaker</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+  <meta name="description" content="Game made with JavaScript" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <base href="https://likarajo.github.io/brickbreaker/" />
+  <link rel="canonical" href="https://likarajo.github.io/brickbreaker/" />
+
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/main.js"></script>
+  <script src="https://buttons.github.io/buttons.js" async defer></script>
+
 </head>
 
 <body>
 
-  <div id="container" class="w3-container w3-padding-16">
-    <button class="w3-button w3-xxlarge w3-green" onmousedown="leftDown()" onmouseup="leftUp()">&#10094;</button>
-    <canvas id="myCanvas" class="w3-center"></canvas>
-    <button class="w3-button w3-xxlarge w3-green" onmousedown="rightDown()" onmouseup="rightUp()">&#10095;</button>
-  </div>
+  <div class="wrapper">
 
-  <script type="text/javascript" src="assets/main.js"></script>
+    <header>
+      <h1>brick breaker</h1>
+      <p>Game built with JavaScript</p>
+      <div id="banner">
+        <a class="github-button" aria-label="View likarajo/clock on GitHub" href="https://github.com/likarajo/brickbreaker" target="_blank" data-size="large">View on Github</a>
+        <br>
+        <a class="github-button" aria-label="Fork likarajo/clock on GitHub" href="https://github.com/brickbreaker/clock/fork" target="_blank" data-icon="octicon-repo-forked" data-show-count="true">Fork</a>
+        <a class="github-button" aria-label="Star likarajo/clock on GitHub" href="https://github.com/brickbreaker/clock" target="_blank" data-icon="octicon-star" data-show-count="true">Star</a>
+      </div>
+    </header>
+
+    <div id="main">
+      <section>
+        <h3><a id="demoLink" href="game.html"><b>Play game</b></a></h3>
+        <h3>How to play:</h3>
+        <p>The reflector has to be moved with the left and right arrows to bounce the ball before it touches the red floor.</p>
+        <p>If the ball touches the red floor, the player loses 1 life.</p>
+        <p>There are a total of 3 lives to break all the bricks and WIN!</p>
+      </section>
+
+    </div>
+
+    <footer>
+      <h3>&copy; 2017 <a href="https://likarajo.github.io" target="_blank">likarajo</a></h3>
+    </footer>
+
+  </div>
 
 </body>
 
